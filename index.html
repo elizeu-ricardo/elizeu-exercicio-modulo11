@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Genos:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="main.css">
+    <title>EliTech</title>
+</head>
+<body>
+    <header>
+        <div class="container container-flex">
+            <h1>Techbyte</h1>
+            <nav class="menu container-flex">
+                <a href="#sobre-a-loja" title="Ir para seção sobre a loja">Sobre a loja</a>
+                <a href="#list-produtos" title="Ir para seção de produtos da loja">Produtos</a>
+            </nav>
+        </div>
+    </header>
+    <section class="slide">
+        <img src="./imagens/slide1.webp" alt="primeiro slide">
+        <img src="./imagens/slide2.webp" alt="segundo slide">
+        <img src="./imagens/slide3.webp" alt="terceiro slide">
+    </section>
+    <section id="sobre-a-loja">
+        <div class="container container-flex">
+            <img src="./imagens/sobre.webp" alt="fachada da loja">
+            <div class="descricao-loja">
+                <h2>Sobre a loja</h2>
+                <hr>
+                <p>
+                    A Elitech é uma loja de eletrônicos inovadora, especializada em oferecer produtos de alta tecnologia com excelência em atendimento. Com um portfólio diversificado, a Elitech traz as últimas novidades do mercado, desde smartphones e computadores até gadgets, acessórios e dispositivos inteligentes. A loja se destaca pela curadoria de produtos das marcas mais renomadas, sempre com qualidade garantida e preços competitivos. Além disso, a Elitech proporciona uma experiência de compra única, com consultoria especializada para ajudar os clientes a escolherem as melhores soluções tecnológicas para suas necessidades. Seja para quem busca performance, inovação ou praticidade, a Elitech é o destino certo para quem deseja estar sempre à frente no mundo digital.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="list-produtos">
+        <div class="container">
+            <h2>Produtos</h2>
+            <hr>
+            <ul class="container-flex listar-produtos">
+                <li>
+                    <img src="./imagens/ar-condicionado.webp" alt="Ar condicionado">
+                    <h3>Ar condicionado Dual inverte</h3>
+                    <p>Ar Condicionado Inverter 9000 Btus LG Dual Compact +AI Frio</p>
+                    <div class="price">
+                        <small>por</small> <strong>2.564,90</strong> no pix ou 10x de <strong>269,99</strong>
+                    </div>
+                    <button>Adicionar ao carrinho </button>
+                </li>
+                <li>
+                    <img src="./imagens/monitor-gamer.webp" alt="Monitor Sansumg">
+                    <h3>Monitor Samsung 27" Gamer</h3>
+                    <p>Monitor Gamer Samsung 27" FHD,75Hz, HDMI, VGA</p>
+                    <div class="price">
+                        <small>por</small> <strong>759,05</strong> no pix ou 10x de <strong>79,90</strong>
+                    </div>
+                    <button>Adicionar ao carrinho </button>
+                </li>
+                <li>
+                    <img src="./imagens/notebook.webp" alt="Notebook Ultra">
+                    <h3>Notebook Multi Ultra Compacto</h3>
+                    <p>Notebook Multi Ultra, Intel Celeron N4020c, 4GB, 128GB</p>
+                    <div class="price">
+                        <small>por</small> <strong>1299,00</strong> no pix ou 10x de <strong>139,08</strong>
+                    </div>
+                    <button>Adicionar ao carrinho </button>
+                </li>
+                <li>
+                    <img src="./imagens/smart-tv-lg.webp" alt="Smart Tv LG">
+                    <h3>Smart TV 32" LG HD Com Alexia</h3>
+                    <p>Entre num mundo onde as cores se destacam</p>
+                    <div class="price">
+                        <small>por</small> <strong>1.329,90</strong> no pix ou 10x de <strong>139,99</strong>
+                    </div>
+                    <button>Adicionar ao carrinho </button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="newlatter">
+        <div class="container">
+            <h2>Assine nossa newslatter</h2>
+            <form class="container-flex">
+                <div id="nome">
+                    <label for="entrada-nome">Nome:</label>
+                    <input type="text" placeholder="Elizeu Ricardo" id="entrada-nome" name="nome" required>
+                </div>
+                <div id="watts">
+                    <label for="entrada-watts">Whatsapp:</label>
+                    <input type="tel" placeholder="(85) 99225-8397" id="entrada-watts"required>
+                </div>
+                <div id="btn-assinar">
+                    <label for="assianr">Assinar</label>
+                    <button type="submit" id="assinar">Assinar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="container option">
+        <h2>Mais vendidos</h2>
+        <hr>
+    </section>
+    <section class="slide-div">
+        <div class="container">
+            <ul class="container-flex listar-produtos slide-two">
+                <li>
+                    <img src="./imagens/ar-condicionado.webp" alt="Ar condicionado">
+                    <h3>Ar condicionado Dual inverte</h3>
+                    <p>Ar Condicionado Inverter 9000 Btus LG Dual Compact +AI Frio</p>
+                    <div class="price">
+                        <small>por</small> <strong>2.564,90</strong> no pix ou 10x de <strong>269,99</strong>
+                    </div>
+                    <button>Adicionar ao carrinho </button>
+                </li>
+                <li>
+                    <img src="./imagens/monitor-gamer.webp" alt="Monitor Sansumg">
+                    <h3>Monitor Samsung 27" Gamer</h3>
+                    <p>Monitor Gamer Samsung 27" FHD,75Hz, HDMI, VGA</p>
+                    <div class="price">
+                        <small>por</small> <strong>759,05</strong> no pix ou 10x de <strong>79,90</strong>
+                    </div>
+                    <button>Adicionar ao carrinho </button>
+                </li>
+                <li>
+                    <img src="./imagens/notebook.webp" alt="Notebook Ultra">
+                    <h3>Notebook Multi Ultra Compacto</h3>
+                    <p>Notebook Multi Ultra, Intel Celeron N4020c, 4GB, 128GB</p>
+                    <div class="price">
+                        <small>por</small> <strong>1299,00</strong> no pix ou 10x de <strong>139,08</strong>
+                    </div>
+                    <button>Adicionar ao carrinho </button>
+                </li>
+                <li>
+                    <img src="./imagens/smart-tv-lg.webp" alt="Smart Tv LG">
+                    <h3>Smart TV 32" LG HD Com Alexia</h3>
+                    <p>Entre num mundo onde as cores se destacam</p>
+                    <div class="price">
+                        <small>por</small> <strong>1.329,90</strong> no pix ou 10x de <strong>139,99</strong>
+                    </div>
+                    <button>Adicionar ao carrinho </button>
+                </li>
+                <li>
+                    <img src="./imagens/caixa-de-som.webp" alt="Caixa de som JBL">
+                    <h3>Caixa de Som JBL Com Leds</h3>
+                    <p>Caixa de som da JBL, otima para ambiente externo</p>
+                    <div class="price">
+                        <small>por</small> <strong>1999,90</strong> no pix ou 10x de <strong>219,99</strong>
+                    </div>
+                    <button>Adicionar ao carrinho </button>
+                </li>
+                <li>
+                    <img src="./imagens/headphone.webp" alt="Headphone Goldentec">
+                    <h3>Headphone Space Goldentec</h3>
+                    <p>Monitor Gamer Samsung 27" FHD,75Hz, HDMI, VGA</p>
+                    <div class="price">
+                        <small>por</small> <strong>759,05</strong> no pix ou 10x de <strong>79,90</strong>
+                    </div>
+                    <button>Adicionar ao carrinho </button>
+                </li>
+                <li>
+                    <img src="./imagens/notebook.webp" alt="Notebook Ultra">
+                    <h3>Notebook Multi Ultra Compacto</h3>
+                    <p>Notebook Multi Ultra, Intel Celeron N4020c, 4GB, 128GB</p>
+                    <div class="price">
+                        <small>por</small> <strong>1299,00</strong> no pix ou 10x de <strong>139,08</strong>
+                    </div>
+                    <button>Adicionar ao carrinho </button>
+                </li>
+                <li>
+                    <img src="./imagens/smart-tv-lg.webp" alt="Smart Tv LG">
+                    <h3>Smart TV 32" LG HD Com Alexia</h3>
+                    <p>Entre num mundo onde as cores se destacam</p>
+                    <div class="price">
+                        <small>por</small> <strong>1.329,90</strong> no pix ou 10x de <strong>139,99</strong>
+                    </div>
+                    <button>Adicionar ao carrinho </button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="chat">
+            <img src="./imagens/icone-whats.png" alt="Icone do WhatsApp">
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+           <p> 2024 &copy; EliTech Técnologia - Todos os direitos reservados | Elaborado com muita dedicação</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
